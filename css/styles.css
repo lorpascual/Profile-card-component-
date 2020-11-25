@@ -1,0 +1,103 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    max-width: 1040px;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);
+    background-position: left top;
+    background-size: 70%;
+    background-repeat: repeat, no-repeat;
+    
+}
+
+
+.card{
+    width: 90%;
+    max-width: 375px;
+    border-radius: 18px;
+    margin: 5rem auto 3rem;
+    background-color: hsl(185, 75%, 39%);
+    
+}
+
+.card-top{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 8em;
+    background-image: url("../images/bg-pattern-card.svg");
+    background-color: hsl(185, 75%, 39%);
+    background-position: left top;
+    background-size: cover;
+    border-radius: 18px 18px 0 0;
+}
+
+
+
+.card-bottom{
+    border-radius: 0 0 18px 18px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-bottom img{
+    width: 30%;
+    border-radius: 50%;
+    margin: -4rem auto 1em;
+    border: white solid 5px;
+}
+
+.stats, .stats-type{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.stats{
+    padding-top: 2rem;
+    border-top: solid 1px hsl(0, 0%, 59%);  ;
+    
+}
+.name span{
+    color: hsl(0, 0%, 59%);  
+    margin-left: 0.5rem;
+}
+
+.main, .name{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main span{
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);  
+    margin: 0.5rem auto 2rem;
+    padding: 0 1rem;    
+}
+
+.city{
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);  
+    margin: 0.5rem auto 2rem;
+}
+
+
+
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
